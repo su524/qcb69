@@ -22,10 +22,10 @@
 # print("最后的结果值：",response)
 
 # 代码优化
-from lemon_69.R_W_EXCEL import  read_data
-from lemon_69.homeworkLS_04 import http_request
+from R_W_EXCEL import  read_data
+from homeworkLS_04 import http_request
 # from openpyxl import load_workbook
-from lemon_69.R_W_EXCEL import write_data
+from R_W_EXCEL import write_data
 
 # 全局变量   局部变量
 # 函数内的变量---局部变量    函数外的变量---全局变量
