@@ -70,5 +70,5 @@ def run(file_name,sheet_name,c1,c2):
         # wb.save('lemon_69.xlsx')
 
 # 调用函数
-run('43前程贷接口测试用例.xlsx','recharge',8,9) # 执行的充值的接口
+run('lemon_69.xlsx','test_case',8,9) # 执行的充值的接口
 
