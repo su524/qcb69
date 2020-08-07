@@ -32,7 +32,7 @@ def read_data(file_name,sheet_name): # 读取数据的函数
             # print(sheet.cell(row=2,column=j).value)
         # print(case)
         all_case.append(case)
-    return all_case # 返回所有测试用例数据
+    return all_case.encode('GBK','ignore') # 返回所有测试用例数据
     # print(all_case)
 
 def write_data(file_name,sheet_name,row,column,value): # 此函数是写入结果到Excel中
