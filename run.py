@@ -25,7 +25,7 @@
 from lemon_69.R_W_EXCEL import  read_data
 from lemon_69.homeworkLS_04 import http_request
 # from openpyxl import load_workbook
-from lemon_69.R_W_EXCEL import write_data
+from R_W_EXCEL import write_data
 
 # 全局变量   局部变量
 # 函数内的变量---局部变量    函数外的变量---全局变量
@@ -70,7 +70,7 @@ def run(file_name,sheet_name,c1,c2):
         # wb.save('lemon_69.xlsx')
 
 # 调用函数
-run('lemon_69.xlsx','test_case',8,9) # 执行的充值的接口
+run('43前程贷接口测试用例.xlsx','recharge',8,9) # 执行的充值的接口
 
-run('lemon_69.xlsx','test_case',8,9) # 执行的提现的接口，为了节约时间我没有找完整的接口文档，这个只做示例，数据可按需求更改。
+run('43前程贷接口测试用例.xlsx','withdraw',8,9) # 执行的提现的接口，为了节约时间我没有找完整的接口文档，这个只做示例，数据可按需求更改。
 
