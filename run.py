@@ -26,6 +26,8 @@ from R_W_EXCEL import  read_data
 from homeworkLS_04 import http_request
 # from openpyxl import load_workbook
 from R_W_EXCEL import write_data
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="gb18030")
 
 # 全局变量   局部变量
 # 函数内的变量---局部变量    函数外的变量---全局变量
